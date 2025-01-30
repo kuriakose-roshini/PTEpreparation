@@ -1,0 +1,18 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="{% static 'css/main.css' %}" type="text/css">
+</head>
+<body>
+    <div class="div">
+        <h1 class="h1">PTE Evaluation</h1>
+        <br>
+        <a href="{% url 'admin_dashboard' %}" class="button">Admin</a>
+        <a href="{% url 'aspirant1_dashboard' %}" class="button">Aspirant</a>
+    </div>
+</body>
+</html>
